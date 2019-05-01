@@ -1,0 +1,40 @@
+
+body {
+	margin-top: 50px;
+	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+	font-size: 16px;
+
+}
+
+/* Nav Bar */
+.navbar-header {
+    height: 80px;   
+}
+
+div.navbar.navbar-inverse.navbar-fixed-top {
+    border-bottom: solid 1px whitesmoke;
+    background-color: white;
+}
+
+.nav, .navbar-brand {
+    padding-top: 12px;
+    
+}
+
+.navbar-brand {
+    margin-top: -15px;
+}
+
+a.red {
+    color: red!important;
+    background-color: whitesmoke!important;
+}
+
+.nav>li:hover {
+     background-color: red;
+     font-size: 17px;
+}
+
+button.navbar-toggle {
+    background-color: red;
+}
